@@ -2,7 +2,7 @@ To add overlay use:
 ```
   nixpkgs.overlays = [
     (import (builtins.fetchTarball {
-      url = "https://github.com/NathanLithia/nix-overlays/archive/refs/heads/main.tar.gz";
+      url = "https://github.com/NathanLithia/nix-overlay/archive/refs/heads/main.tar.gz";
     }))
   ];
 ```
